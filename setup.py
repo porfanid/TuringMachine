@@ -6,14 +6,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='turing_machine_utils',
-    version='1.0.1',
+    version='1.0.2',
     license='MIT',
 
     author="porfanid",
     author_email='pavlos@orfanidis.net.gr',
 
-    url='https://github.com/porfanid/turing',
-    homepage='https://github.com/porfanid/turing',
+    url='https://github.com/porfanid/TuringMachine',
+    homepage='https://github.com/porfanid/TuringMachine',
 
     packages=find_packages(),
     install_requires=[
@@ -22,9 +22,9 @@ setup(
     python_requires='>=3.6',
     project_urls={
         'Funding': 'https://ko-fi.com/porfanid',
-        'Source': 'https://github.com/porfanid/turing',
-        'Documentation': 'https://github.com/porfanid/turing',
-        'Tracker': "https://github.com/porfanid/turing/issues",
+        'Source': 'https://github.com/porfanid/TuringMachine',
+        'Documentation': 'https://github.com/porfanid/TuringMachine',
+        'Tracker': "https://github.com/porfanid/TuringMachine/issues",
         'Say Thanks!': 'https://saythanks.io/to/porfanid',
     },
     description='Calculate the result of a turing machine on a given tape',
