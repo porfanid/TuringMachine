@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='turing_machine_utils',
-    version='1.0.0',
+    version='1.0.1',
     license='MIT',
 
     author="porfanid",
@@ -30,5 +30,5 @@ setup(
     description='Calculate the result of a turing machine on a given tape',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    keywords='base, conversion, kit, base, convert, numbers, add, multiply, subtract, Number Converter, Base Conversion, Numeric Operations, Number System Converter, Decimal to Binary, Decimal to Hexadecimal, Base Conversion Tool, Number Base Calculator, Binary Math Operations, Hexadecimal Arithmetic, Binary Converter, Number Base Converter, Base Conversion App, Numeric Base Operations, Decimal Arithmetic, Hex Converter, Number Base Transform, Number Base Manipulation, Binary Subtraction, Decimal Multiplication, Base Conversion Utility, Numeric Base Transformation, Binary Calculator, Number System Manipulation, Hexadecimal Calculator, Numeric Base Math, Base Conversion Helper, Decimal to Octal, Numeric Base Conversion App, Base Arithmetic Operations'
+    keywords='Turing Machine, Turing Machine Simulator, Python, Automata, Simulation, Computational Theory, State Machine, Algorithm, Artificial Intelligence, Machine Learning, Computational Science, Programming, Open Source, Education, Computer Science, Formal Languages, Computational Models, Tape, States, Transition Rules, Simulation Tool, Complexity, Symbol, Universal Turing Machine, Computer Engineering, Software Development'
 )
