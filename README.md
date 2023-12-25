@@ -1,9 +1,5 @@
 # TuringMachine
 
-# Project Name
-
-A brief description of your project.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -16,11 +12,7 @@ A brief description of your project.
 
 ## Introduction
 
-Provide a brief introduction to your project. Mention its purpose, main features, and any other relevant information.
-
-## Features
-
-List the key features of your project. What makes it unique or useful?
+Run any Turing machine possible using this function and see if the turing machine, accepts or rejects the tape yu input to it.
 
 ## Installation
 
