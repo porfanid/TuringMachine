@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name='turing_machine_utils',
-    version='1.0.4',
+    version='1.0.5',
     license='MIT',
 
     author="porfanid",
