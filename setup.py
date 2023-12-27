@@ -2,11 +2,12 @@ from setuptools import setup, find_packages
 
 # Read the content of README.md
 with open("README.md", "r", encoding="utf-8") as fh:
+    _ = fh.readline() # ignore the first line
     long_description = fh.read()
 
 setup(
     name='turing_machine_utils',
-    version='1.0.5',
+    version='1.0.6',
     license='MIT',
 
     author="porfanid",
