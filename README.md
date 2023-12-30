@@ -12,7 +12,7 @@
 
 ## Introduction
 
-Run any Turing machine possible using this function and see if the turing machine, accepts or rejects the tape yu input to it.
+Run any Turing machine possible using this function and see if the turing machine, accepts or rejects the tape you input to it.
 
 ## Installation
 
@@ -38,9 +38,10 @@ transition_rules = {
 tape = ['0', '1', '0', '1', '0']
 
 # Run the Turing Machine
-result, new_tape = create_turing_machine(tape, states, transition_rules)
+result, new_tape, state, symbol = create_turing_machine(tape, states, transition_rules)
 print("Result:", result)
 ```
+> remember that the machine will start calculating the response from the first state. So the first element on the states list must be the beginning state
 
 The result will be:
 1. 1 if the tape is accepted by the turing machine
@@ -48,6 +49,8 @@ The result will be:
 1. 0 if an undefined transition is found by the turing machine
 
 The new_tape is the tape with the changes to the original tape
+
+The state and symbol are normally None. They get values that say when the turing machine reached an undefined point
 
 ## Configuration
 

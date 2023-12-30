@@ -24,11 +24,11 @@ def create_turing_machine(tape, states, transition_rules):
             current_state = new_state
         else:
             print("Undefined transition for state: {}, symbol: {}".format(current_state, current_symbol))
-            return 0, tape  # Return 0 for an undefined transition
+            return 0, tape, current_state, current_symbol  # Return 0 for an undefined transition
 
     if current_state == 'accept':
         print("Turing machine accepted the tape.")
-        return 1, tape
+        return 1, tape, None, None
     elif current_state == 'discard':
         print("Turing machine discarded the tape.")
-        return -1, tape
+        return -1, tape, None, None
